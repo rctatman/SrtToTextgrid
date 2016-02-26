@@ -1,0 +1,2819 @@
+2
+00:00:00 --> 00:00:04
+but I&#39;d like to introduce you to our
+keynote speaker this morning
+
+3
+00:00:04 --> 00:00:14
+katie is not yet katie is a former
+software developer for Google many years
+
+4
+00:00:14 --> 00:00:20
+ago veteran run there and left there
+recently to join a Sydney based startup
+
+5
+00:00:20 --> 00:00:23
+named Brock learning working with high
+school is building a platform for
+
+6
+00:00:23 --> 00:00:27
+programming in education something like
+that I think I tangled up a few have
+
+7
+00:00:27 --> 00:00:32
+sentences but I will hand directly over
+her so that I won&#39;t keep missing my
+
+8
+00:00:32 --> 00:00:45
+words around the password email please
+do you work for a company called cloning
+
+9
+00:00:45 --> 00:00:51
+and to give you an explanation of what
+we do it gonna take you through thinking
+
+10
+00:00:51 --> 00:00:55
+like a non programa approaching
+programming and prices for the very
+
+11
+00:00:55 --> 00:01:01
+first time and the way our platform
+works as we have an online system it
+
+12
+00:01:01 --> 00:01:04
+teaches you everything you need to know
+about the pipeline in order to do a
+
+13
+00:01:04 --> 00:01:06
+serious challenge questions
+
+14
+00:01:06 --> 00:01:10
+challenge questions start off
+extraordinarily easy with our world and
+
+15
+00:01:10 --> 00:01:14
+similar kinds of variations before we
+move on to the first kind of scary
+
+16
+00:01:14 --> 00:01:17
+complicated question where you&#39;re
+supposed to write a name that are right
+
+17
+00:01:17 --> 00:01:22
+and I write a program that asks the user
+what is your name and use it and typing
+
+18
+00:01:22 --> 00:01:27
+something and it should say color to the
+user with whatever name they use a typed
+
+19
+00:01:27 --> 00:01:30
+in her things they could write this
+program
+
+20
+00:01:30 --> 00:01:38
+good stuff we&#39;re gonna go through the
+sort of series of thought processes that
+
+21
+00:01:38 --> 00:01:44
+one of our students Danish dotted with
+star is the first attempt to serve the
+
+22
+00:01:44 --> 00:01:49
+system works as you write in your
+attempt at this program and then you can
+
+23
+00:01:49 --> 00:01:52
+hit you can run it yourself you can see
+that it works the way you expected to
+
+24
+00:01:52 --> 00:01:55
+work and then you can hit the mark
+button that runs through a series of
+
+25
+00:01:55 --> 00:01:58
+tests to give you feedback and hope you
+point to help point you in the right
+
+26
+00:01:58 --> 00:02:03
+direction for eventually getting the
+question corrects are famous in this
+
+27
+00:02:03 --> 00:02:08
+case copied exactly one of the examples
+from the North that had been reading
+
+28
+00:02:08 --> 00:02:12
+through reaches during the student
+actually read the notes to good start
+
+29
+00:02:12 --> 00:02:17
+but that doesn&#39;t really answer the
+question your program doesn&#39;t really
+
+30
+00:02:17 --> 00:02:22
+work it says hello and 10 when it&#39;s
+meant to say what is your name
+
+31
+00:02:22 --> 00:02:27
+next attempt getting much closer even
+like reading in the input into a
+
+32
+00:02:27 --> 00:02:33
+variable printing it out pretty good but
+it&#39;s still not exactly right and we
+
+33
+00:02:33 --> 00:02:36
+emphasize this right from the beginning
+in our costs that you must be very
+
+34
+00:02:36 --> 00:02:42
+precise and we&#39;ll get to that mistake
+carry this time we&#39;ve got the space
+
+35
+00:02:42 --> 00:02:49
+after the question mark that&#39;s a good
+step right now our deviantART yeah not
+
+36
+00:02:49 --> 00:02:55
+not quite getting what&#39;s going on here
+but you know it&#39;s printing out some
+
+37
+00:02:55 --> 00:03:01
+extra staff yeah
+
+38
+00:03:01 --> 00:03:05
+is getting a little bit confused and
+we&#39;re learning from this game is
+
+39
+00:03:05 --> 00:03:09
+learning firstly the computers of stupid
+does not understand what it means when
+
+40
+00:03:09 --> 00:03:12
+he says I&#39;m Hamish
+
+41
+00:03:12 --> 00:03:16
+computers require precision is learning
+to put spaces in the right places
+
+42
+00:03:16 --> 00:03:19
+learning that the output needs to be
+exact
+
+43
+00:03:19 --> 00:03:26
+we have another couple more attempts
+getting closer just got the space on
+
+44
+00:03:26 --> 00:03:33
+their ok I know it fails the second test
+case publicly well as long as you type
+
+45
+00:03:33 --> 00:03:37
+in your name is broke and it doesn&#39;t
+work at all if you type in anything else
+
+46
+00:03:37 --> 00:03:42
+and sore alright so the programs meant
+to put further now ok
+
+47
+00:03:42 --> 00:03:53
+but now it&#39;s meant to put broke her
+sometime we missed again and then
+
+48
+00:03:53 --> 00:04:02
+eventually we get there this is kind of
+demonstrating how someone who has never
+
+49
+00:04:02 --> 00:04:07
+understood how a computer works how
+programming works approaching it for the
+
+50
+00:04:07 --> 00:04:11
+first time this sort of learning mostly
+the computers are stupid but they also
+
+51
+00:04:11 --> 00:04:15
+have to respond to different kinds of
+input when I type in something different
+
+52
+00:04:15 --> 00:04:19
+the program has a series of rules which
+would then respond mister and that&#39;s
+
+53
+00:04:19 --> 00:04:22
+kind of the fundamental piece of how
+programming works
+
+54
+00:04:22 --> 00:04:26
+other questions are getting rid of the
+user interface around that this is the
+
+55
+00:04:26 --> 00:04:32
+question yes is the answer that we
+expect it&#39;s moving on this is after week
+
+56
+00:04:32 --> 00:04:34
+one you&#39;ve gotten through multiple
+things you want if statements of London
+
+57
+00:04:34 --> 00:04:39
+Mile Rd 114 words we&#39;re starting to put
+them all together as a sort of five
+
+58
+00:04:39 --> 00:04:42
+weeks later and I&#39;ll call us this is a
+much more complicated example we&#39;re
+
+59
+00:04:42 --> 00:04:47
+reading in one line of input at a time
+sending it to a list reversing the list
+
+60
+00:04:47 --> 00:04:50
+and then printing it out and report the
+best order this is my favorite attempt
+
+61
+00:04:50 --> 00:04:54
+to one of these questions it&#39;s not doubt
+by and got a while if it&#39;s gonna get in
+
+62
+00:04:54 --> 00:04:58
+for some reason it&#39;s also counting how
+many things that I think to the wild why
+
+63
+00:04:58 --> 00:05:00
+is that this is how it went
+
+64
+00:05:00 --> 00:05:09
+part of learning to program the students
+are also going to learn that they should
+
+65
+00:05:09 --> 00:05:12
+be avoiding unnecessary repetition
+because eventually this doesn&#39;t work as
+
+66
+00:05:12 --> 00:05:14
+well computers a good at the good
+repeating things over and over again so
+
+67
+00:05:14 --> 00:05:18
+that you don&#39;t have to I tried to find
+an example of its done and getting mixed
+
+68
+00:05:18 --> 00:05:21
+off the ballot different data types
+caused this is one of the things that
+
+69
+00:05:21 --> 00:05:25
+really really cool students when they&#39;re
+starting out with Python and this was
+
+70
+00:05:25 --> 00:05:30
+the person who kind of got that there&#39;s
+something wrong with trying to like a
+
+71
+00:05:30 --> 00:05:34
+cancer pract strings but haven&#39;t quite
+worked out that they&#39;re already strings
+
+72
+00:05:34 --> 00:05:42
+and that bring a firing them is not
+actually gonna help but question one of
+
+73
+00:05:42 --> 00:05:48
+the students are learning that the data
+has a structure to it and computing like
+
+74
+00:05:48 --> 00:05:52
+a string is fundamentally a different
+thing to an integer and so on and as we
+
+75
+00:05:52 --> 00:05:56
+learn lists are more complicated
+structures and stuff why we didn&#39;t
+
+76
+00:05:56 --> 00:06:01
+hurting who has heard this before
+quitting is the new literacy it&#39;s also
+
+77
+00:06:01 --> 00:06:08
+complete crap I I get really annoyed
+when people share this kind of thing is
+
+78
+00:06:08 --> 00:06:11
+the new literacy everyone is gonna need
+to be able to code or you won&#39;t be able
+
+79
+00:06:11 --> 00:06:17
+to get a job that sounds like a really
+terrible plan to me I don&#39;t want to have
+
+80
+00:06:17 --> 00:06:20
+every person in the world karting that&#39;s
+going to end up with a lot of crappy and
+
+81
+00:06:20 --> 00:06:29
+redundant kurd when we&#39;re talking about
+how everyone covered why is it that we
+
+82
+00:06:29 --> 00:06:32
+actually want everyone to learn to
+current we definitely don&#39;t want
+
+83
+00:06:32 --> 00:06:37
+everyone to be programmers we need a lot
+of people to do other things as well and
+
+84
+00:06:37 --> 00:06:40
+again we don&#39;t want everyone writing
+copy code we should be able to write the
+
+85
+00:06:40 --> 00:06:43
+card once and then it should be used
+multiple times we shouldn&#39;t have
+
+86
+00:06:43 --> 00:06:47
+everyone ready so I propose that we
+change this instead of talking about
+
+87
+00:06:47 --> 00:06:52
+creating is the new literacy should make
+hurting is the new biology
+
+88
+00:06:52 --> 00:06:56
+before you like what the hell let me
+explain that a little bit so when you
+
+89
+00:06:56 --> 00:06:57
+study biology at school
+
+90
+00:06:57 --> 00:07:00
+firstly you thought studying yet in
+primary school you start with really
+
+91
+00:07:00 --> 00:07:04
+simple things you grow a little broad
+beans or heads of grass and stuff and
+
+92
+00:07:04 --> 00:07:08
+you see that plants need water and finds
+needs online and as you get older you
+
+93
+00:07:08 --> 00:07:12
+start to understand that a lot more you
+learn about photosynthesis you learn
+
+94
+00:07:12 --> 00:07:17
+this is why if we don&#39;t give any plans
+any sunlight is going to die or get
+
+95
+00:07:17 --> 00:07:22
+water those are not going to survive
+very long in make sense of the world
+
+96
+00:07:22 --> 00:07:28
+around you and then you can reason about
+it you have part of being an intelligent
+
+97
+00:07:28 --> 00:07:31
+human being and society&#39;s understanding
+how border synthesis works how we get
+
+98
+00:07:31 --> 00:07:35
+food every day how we don&#39;t talk in the
+same way
+
+99
+00:07:35 --> 00:07:39
+understanding how computer works is
+fundamental to be able to use them well
+
+100
+00:07:39 --> 00:07:42
+to be able to being able to reason about
+them in society to be able to make
+
+101
+00:07:42 --> 00:07:49
+intelligent decisions as of when
+technical issues come up things going
+
+102
+00:07:49 --> 00:07:53
+back to what our students with learning
+as it was starting to program their
+
+103
+00:07:53 --> 00:07:56
+learning that there are limitations to
+what computers can do they can only do
+
+104
+00:07:56 --> 00:08:01
+follow a series of roles based on the
+inputs that are given if you could
+
+105
+00:08:01 --> 00:08:04
+imagine how much easier tech support
+would be if everything we understood
+
+106
+00:08:04 --> 00:08:09
+this if you could they understand that
+the purpose of computers is to avoid
+
+107
+00:08:09 --> 00:08:14
+work for humans if you understand what a
+computer is capable of doing you are
+
+108
+00:08:14 --> 00:08:18
+able to sit back and wait wait a minute
+why am i doing a job that could be
+
+109
+00:08:18 --> 00:08:22
+replaced by a computer you don&#39;t need to
+be a professional coda to have enough
+
+110
+00:08:22 --> 00:08:30
+understanding to be able to see that for
+every every student should learn to
+
+111
+00:08:30 --> 00:08:35
+procured at school during school and
+this helps not only like attract more
+
+112
+00:08:35 --> 00:08:38
+programmers to the field because more
+people will become interested in
+
+113
+00:08:38 --> 00:08:43
+programming this also helps fields which
+are very likely to need quarters finance
+
+114
+00:08:43 --> 00:08:43
+and science
+
+115
+00:08:43 --> 00:08:46
+engineering where if you study physics
+these days we study physics at school we
+
+116
+00:08:46 --> 00:08:48
+study physics University and you start
+doing research and discover that you
+
+117
+00:08:48 --> 00:08:52
+need to be able to colored in order to
+do that research and then you have a
+
+118
+00:08:52 --> 00:08:57
+crash course including a lot of visitors
+would be terrible courage learning that
+
+119
+00:08:57 --> 00:09:01
+earlier would then help us build that do
+actually require courting it also helps
+
+120
+00:09:01 --> 00:09:05
+every other fuel because people will be
+able to see how computers fit in how
+
+121
+00:09:05 --> 00:09:08
+computer programming fits in what kind
+of tools they can use water is available
+
+122
+00:09:08 --> 00:09:09
+to them
+
+123
+00:09:09 --> 00:09:14
+it also helps increase of eighty you end
+up in the current system where students
+
+124
+00:09:14 --> 00:09:17
+will learn to Cardiff for some reason
+they are expecting that they will find
+
+125
+00:09:17 --> 00:09:20
+it interesting and they choose to then
+learn about it if you start off with
+
+126
+00:09:20 --> 00:09:24
+every single child learning about it
+every single child the opportunity to
+
+127
+00:09:24 --> 00:09:28
+find out if it&#39;s something that they&#39;re
+interested in this helps women this
+
+128
+00:09:28 --> 00:09:35
+helps minorities is generally a good
+thing let&#39;s give this a little bit more
+
+129
+00:09:35 --> 00:09:41
+structure we&#39;re going to dive in to help
+this actually looks out of school level
+
+130
+00:09:41 --> 00:09:47
+when you&#39;re teaching according two
+examples in a look at the UK curriculum
+
+131
+00:09:47 --> 00:09:51
+and the new Australian Curriculum that&#39;s
+coming out in the next couple of years
+
+132
+00:09:51 --> 00:09:54
+my understanding is that in New Zealand
+at the moment in the curriculum for
+
+133
+00:09:54 --> 00:10:00
+karting is a and optional sort of higher
+later and a high school kind of thing
+
+134
+00:10:00 --> 00:10:06
+there&#39;s nothing for earlier on this is a
+very high level summary of the UK coding
+
+135
+00:10:06 --> 00:10:09
+curriculum and this came out
+
+136
+00:10:09 --> 00:10:12
+already lot of teachers are freaking out
+because they don&#39;t know how to cook
+
+137
+00:10:12 --> 00:10:16
+teach programming as they don&#39;t know how
+to program them self but they&#39;re working
+
+138
+00:10:16 --> 00:10:20
+on it for notice that the stocks really
+really done at the top
+
+139
+00:10:20 --> 00:10:24
+died 15 and six year olds starting to
+think about
+
+140
+00:10:24 --> 00:10:28
+algorithms and computational thinking so
+this doesn&#39;t mean that we&#39;re getting
+
+141
+00:10:28 --> 00:10:31
+five year olds to start cutting
+entitlement cuz they can barely read get
+
+142
+00:10:31 --> 00:10:37
+but we are starting to get five and
+six-year-old to think about things in a
+
+143
+00:10:37 --> 00:10:42
+computational thinking kind of way how
+do I explain in a structured way how to
+
+144
+00:10:42 --> 00:10:45
+make person in the morning what are the
+decisions I make you can start to think
+
+145
+00:10:45 --> 00:10:48
+about branching decisions when he thinks
+if it is raining then I should take an
+
+146
+00:10:48 --> 00:10:55
+umbrella otherwise I should bring a half
+discussing things and developing those
+
+147
+00:10:55 --> 00:10:59
+algorithms in series of steps and
+instructions and also stopped to talk
+
+148
+00:10:59 --> 00:11:04
+about using technology and kind of what
+it means when you&#39;re creating dollars
+
+149
+00:11:04 --> 00:11:07
+are creating storing retrieving digital
+data could be very simple like taking a
+
+150
+00:11:07 --> 00:11:13
+four German saving it to drive somewhere
+and then sending it to someone else when
+
+151
+00:11:13 --> 00:11:18
+you get to the sort of year seven to
+eleven year old age group that&#39;s when
+
+152
+00:11:18 --> 00:11:24
+they stopped actually writing programs
+and in the UK this is usually done with
+
+153
+00:11:24 --> 00:11:27
+Mike scratch and computer programming
+language where they&#39;re starting to write
+
+154
+00:11:27 --> 00:11:30
+programs would actually have to think I
+can I want the freedom to do this they
+
+155
+00:11:30 --> 00:11:33
+come up with a series of instructions
+and steps introduce variable your dude
+
+156
+00:11:33 --> 00:11:36
+ranching they&#39;re starting to learn that
+there&#39;s also things in there about how
+
+157
+00:11:36 --> 00:11:38
+networks and the Internet
+
+158
+00:11:38 --> 00:11:43
+how computers didn&#39;t realize is also a
+staff throughout the curriculum on using
+
+159
+00:11:43 --> 00:11:47
+the internet safely and using impact of
+technology on society and sort of funny
+
+160
+00:11:47 --> 00:11:53
+things like that as well keep on getting
+into the other kids which is sort of
+
+161
+00:11:53 --> 00:11:58
+214 they have to learn to different
+programming languages and at least one
+
+162
+00:11:58 --> 00:12:04
+of them has to be a text based
+programming language and in the UK this
+
+163
+00:12:04 --> 00:12:08
+is almost always packed them it is
+incredibly common to be teaching in
+
+164
+00:12:08 --> 00:12:11
+schools in the UK at the moment there&#39;s
+also a particular things in the
+
+165
+00:12:11 --> 00:12:16
+curriculum about running Boolean logic
+and operated is how hardware and
+
+166
+00:12:16 --> 00:12:19
+software how computers work that they
+have a series of instructions that they
+
+167
+00:12:19 --> 00:12:24
+are executing one by one daughter is
+represented in finery moving on to the
+
+168
+00:12:24 --> 00:12:29
+Australian Curriculum this is the
+structure there&#39;s a much like again
+
+169
+00:12:29 --> 00:12:32
+these are very very light condensed
+versions of the curriculum is a lot of
+
+170
+00:12:32 --> 00:12:38
+texts in their room is divided into
+separate in some sort of course streams
+
+171
+00:12:38 --> 00:12:42
+these are the two of them there is a
+couple more but starting in after too
+
+172
+00:12:42 --> 00:12:48
+much in the New Zealand system would be
+one to grade 12 30 again donning
+
+173
+00:12:48 --> 00:12:53
+describing algorithms wanting to
+identify the digital systems that you&#39;re
+
+174
+00:12:53 --> 00:12:56
+using every day starting to the really
+basic things that you can do in a
+
+175
+00:12:56 --> 00:13:01
+classroom with a teacher and just paper
+and whitewater and stop not even
+
+176
+00:13:01 --> 00:13:07
+touching a computer at this point I&#39;m
+has a little bit more detail and then
+
+177
+00:13:07 --> 00:13:11
+the UK curriculum and goes into more
+detail specific about how data is stored
+
+178
+00:13:11 --> 00:13:15
+and represented in numbers and inquiry
+and how getting onto the later ones I&#39;ll
+
+179
+00:13:15 --> 00:13:22
+text and images and sound daughter is
+represented but the progression for
+
+180
+00:13:22 --> 00:13:26
+programming is very similar to the UK
+system where you start out again with
+
+181
+00:13:26 --> 00:13:30
+the very young kids describing
+algorithms then for this sort of primary
+
+182
+00:13:30 --> 00:13:34
+school age kids you&#39;re using a visual
+programming language starting off with
+
+183
+00:13:34 --> 00:13:37
+import and doing if statements and then
+getting too complicated things like
+
+184
+00:13:37 --> 00:13:44
+loops but again which in the New Zealand
+system would be here at nine
+
+185
+00:13:44 --> 00:13:48
+a general-purpose programming language
+and again the curriculum is very
+
+186
+00:13:48 --> 00:13:53
+language neutral but you can see how I
+think it fit in there are talking about
+
+187
+00:13:53 --> 00:14:02
+Biden why would we teach in schools as
+opposed to any other language and I
+
+188
+00:14:02 --> 00:14:05
+really enjoyed reading about them is
+definitely a good language for teaching
+
+189
+00:14:05 --> 00:14:08
+and it&#39;s essentially good for the same
+reasons that you guys are like by then
+
+190
+00:14:08 --> 00:14:14
+because it is very clean and simple
+especially when you get started you
+
+191
+00:14:14 --> 00:14:17
+imagine this program in Java when you
+have classes and stuff is a hell of a
+
+192
+00:14:17 --> 00:14:21
+lot of stuff that you have to explain
+away or ignore as you&#39;re getting started
+
+193
+00:14:21 --> 00:14:23
+and your vote in your first programs
+
+194
+00:14:23 --> 00:14:26
+the other thing I could do you like
+about my son is demonstrated by this
+
+195
+00:14:26 --> 00:14:33
+example for can anyone see the problem
+with this problem is that it&#39;s invited
+
+196
+00:14:33 --> 00:14:34
+to
+
+197
+00:14:34 --> 00:14:39
+never ever teach by center and this is
+probably my favorite reason why you can
+
+198
+00:14:39 --> 00:14:43
+see the bug with this yes I cable had
+this before
+
+199
+00:14:43 --> 00:14:54
+yes for a bigger than a thousand the
+variable here is a string and invite
+
+200
+00:14:54 --> 00:14:57
+them to you can compare string to a
+number and it just kind of works except
+
+201
+00:14:57 --> 00:15:01
+it only works if it happens to the
+number happens to be greater than the
+
+202
+00:15:01 --> 00:15:06
+number three
+
+203
+00:15:06 --> 00:15:12
+I cannot like describe to you how many
+times I am seeing students bashing my
+
+204
+00:15:12 --> 00:15:15
+head against the wall like why does my
+if statement work only if the number is
+
+205
+00:15:15 --> 00:15:22
+less than the other number and this is
+what I like about Python particularly
+
+206
+00:15:22 --> 00:15:29
+3 never ever treatment center is because
+it had a lot of thought put into it to
+
+207
+00:15:29 --> 00:15:34
+make it clean and consistent and nice if
+you&#39;ve tried teaching JavaScript in this
+
+208
+00:15:34 --> 00:15:38
+is what the random little gotchas in
+there is much nicer this makes it a
+
+209
+00:15:38 --> 00:15:40
+great degree good teaching language
+again for the same reason that you guys
+
+210
+00:15:40 --> 00:15:45
+and pricing and serve as mentioned
+before this is really where it fits in
+
+211
+00:15:45 --> 00:15:50
+nicely in the UK curriculum and again
+this is where it fits in nicely with the
+
+212
+00:15:50 --> 00:15:51
+Australian Curriculum as well
+
+213
+00:15:51 --> 00:15:56
+New Zealand is usually a little bit
+ahead of Australia and everything but I
+
+214
+00:15:56 --> 00:16:04
+ok this is the problem with bison
+reaching by then what is this I don&#39;t
+
+215
+00:16:04 --> 00:16:11
+hear is the idle at some point in time I
+K who actually uses it for anything
+
+216
+00:16:11 --> 00:16:21
+useful because did anyone hear work on I
+don&#39;t at all good I can I can safely I
+
+217
+00:16:21 --> 00:16:27
+can say I don&#39;t have really enjoyed it
+not only looks like it&#39;s also even works
+
+218
+00:16:27 --> 00:16:31
+on a Mac it&#39;s kind of painful two years
+in the interpreter you can even use the
+
+219
+00:16:31 --> 00:16:36
+Opera to get back to your previous
+commands but if you go into schools and
+
+220
+00:16:36 --> 00:16:39
+you see them taking part in this is
+almost always what they&#39;re using and it
+
+221
+00:16:39 --> 00:16:45
+kind of terrible thing we decided to put
+everything on line so we built our art
+
+222
+00:16:45 --> 00:16:51
+is better and nicer but it does have the
+disadvantage that it is online you can&#39;t
+
+223
+00:16:51 --> 00:16:55
+necessarily do Pi Day maps for the for
+example because all of the packing is
+
+224
+00:16:55 --> 00:16:59
+running on a free service and you can&#39;t
+really getting you are doing stuff
+
+225
+00:16:59 --> 00:17:04
+likely idol is the kind of choice and
+that&#39;s not particularly great but there
+
+226
+00:17:04 --> 00:17:09
+are a lot of really really cool things
+that people are using foreign teaching
+
+227
+00:17:09 --> 00:17:12
+with prices are going to go through a
+couple of areas because they&#39;re they&#39;re
+
+228
+00:17:12 --> 00:17:16
+really cool examples of what you can do
+for the Raspberry Pi foundation has a
+
+229
+00:17:16 --> 00:17:21
+lot of activities that newspaper with
+the robbery this one is one of the
+
+230
+00:17:21 --> 00:17:25
+examples where you hook up a little tiny
+camera and a button and courting early
+
+231
+00:17:25 --> 00:17:28
+in Python you can write the current that
+if you hit the button and it will take a
+
+232
+00:17:28 --> 00:17:31
+further when it will store it and you
+can use this to make little stop motion
+
+233
+00:17:31 --> 00:17:34
+video can seem to love this thing you
+can do
+
+234
+00:17:34 --> 00:17:39
+electronics programming with Python
+which is pretty awesome that&#39;s a really
+
+235
+00:17:39 --> 00:17:43
+good way to get kids doing something
+hands on something it&#39;s interactive you
+
+236
+00:17:43 --> 00:17:46
+there is a pipe an API for Minecraft
+
+237
+00:17:46 --> 00:17:51
+which lets you place box office is also
+really cool and engaging for kids this
+
+238
+00:17:51 --> 00:17:54
+is usually designed to run on the rock
+group I but there&#39;s can also run on the
+
+239
+00:17:54 --> 00:18:00
+regular my profession as well one of the
+things that we launched recently cloning
+
+240
+00:18:00 --> 00:18:04
+is using dental records or longer
+depending on what generation to
+
+241
+00:18:04 --> 00:18:09
+compromise and this is one for very very
+beginning programming stuff where you
+
+242
+00:18:09 --> 00:18:12
+can actually sort of cedar as old as I
+am moving the total and it&#39;s turning
+
+243
+00:18:12 --> 00:18:18
+left and right and you can draw pretty
+pictures and stuff with it and there&#39;s
+
+244
+00:18:18 --> 00:18:23
+always my game which seems to end up
+looking like this but it is very
+
+245
+00:18:23 --> 00:18:26
+exciting for kids to have like stuff to
+draw on the screen off the downside of
+
+246
+00:18:26 --> 00:18:31
+Pi game is that there is a lot that you
+have to come up to even get started and
+
+247
+00:18:31 --> 00:18:34
+doing anything is kind of a little bit
+painful like yes ok I need to work out
+
+248
+00:18:34 --> 00:18:37
+the coordinates and all this image on
+the screen and that&#39;s exactly what could
+
+249
+00:18:37 --> 00:18:44
+be a bit nicer but it is very sorry this
+is an explanation that I get to be
+
+250
+00:18:44 --> 00:18:46
+polite when I talking about what we
+should do this to get kids excited
+
+251
+00:18:46 --> 00:18:50
+turned out different kids get excited
+about different things and so when
+
+252
+00:18:50 --> 00:18:53
+teaching programming there these are the
+three different kind of major areas that
+
+253
+00:18:53 --> 00:18:57
+I see kids get excited about when
+they&#39;re learning to get excited purely
+
+254
+00:18:57 --> 00:19:01
+about the algorithmic problem solving
+steps where they don&#39;t really care what
+
+255
+00:19:01 --> 00:19:03
+the code is actually doing as long as
+they&#39;re like enjoying the thought
+
+256
+00:19:03 --> 00:19:06
+process of I have to do this thing and
+now how do I formulate that encouraged
+
+257
+00:19:06 --> 00:19:09
+to make it to the thing that I want some
+kids get excited
+
+258
+00:19:09 --> 00:19:13
+learning how computers actually work
+learning what is going on and sort of
+
+259
+00:19:13 --> 00:19:16
+doing things that are very low level
+those kids tend to gravitate more to the
+
+260
+00:19:16 --> 00:19:21
+electronics and robotics kind of stuff
+and then there&#39;s kind of the the
+
+261
+00:19:21 --> 00:19:25
+building cool stuff kids who they don&#39;t
+kind of like what the process is to get
+
+262
+00:19:25 --> 00:19:27
+there but they want something that they
+can really show off at the end
+
+263
+00:19:27 --> 00:19:32
+and this is kind of the difficult part
+for pythons are about them all the cool
+
+264
+00:19:32 --> 00:19:35
+stuff that I just knew that you can take
+your place then the problem with all of
+
+265
+00:19:35 --> 00:19:37
+the doors is that they are very much
+
+266
+00:19:37 --> 00:19:41
+toys they are not real world
+applications and it works really really
+
+267
+00:19:41 --> 00:19:46
+well for the younger primary school age
+kids but when I&#39;m getting older we need
+
+268
+00:19:46 --> 00:19:50
+something to then bring that back
+together and sure hey you just want a
+
+269
+00:19:50 --> 00:19:55
+real-world skills that can build the
+kinds of software that you use your self
+
+270
+00:19:55 --> 00:20:01
+everyday they want to learn a skill that
+I could use to build something that will
+
+271
+00:20:01 --> 00:20:05
+actually genuinely be useful in my life
+that people might actually want to use
+
+272
+00:20:05 --> 00:20:10
+it could be a product so my question to
+you is where is running so if you guys
+
+273
+00:20:10 --> 00:20:15
+are all by the developers put your hand
+up your code is running in some way that
+
+274
+00:20:15 --> 00:20:21
+is useful to a person other than you got
+it running somewhere it&#39;s in its
+
+275
+00:20:21 --> 00:20:26
+introduction its launch to the user ok
+so put your hand up again if your card
+
+276
+00:20:26 --> 00:20:32
+is not running on your own servers
+somewhere ok is it actually running on a
+
+277
+00:20:32 --> 00:20:35
+desktop device or mobile device
+
+278
+00:20:35 --> 00:20:40
+a couple of you actually more than I
+expected I did interesting as I
+
+279
+00:20:40 --> 00:20:45
+experienced developers do is run on
+Linux service somewhere in the crowd
+
+280
+00:20:45 --> 00:20:52
+somewhere as some kind of web server
+like this and it&#39;s very hard to find
+
+281
+00:20:52 --> 00:20:58
+ways to use pythons to develop the kinds
+of apps and tools that the kids actually
+
+282
+00:20:58 --> 00:21:04
+no runs the ones that they using the
+kids nor I have this out that I install
+
+283
+00:21:04 --> 00:21:08
+my foreign or there is a software that I
+can run on my computer as a game or
+
+284
+00:21:08 --> 00:21:08
+something
+
+285
+00:21:08 --> 00:21:12
+these are the sort of tangible software
+pieces that they&#39;re familiar with and if
+
+286
+00:21:12 --> 00:21:17
+they could build boers they could really
+see the value of what they&#39;re doing the
+
+287
+00:21:17 --> 00:21:21
+way we&#39;ve gone around this in the past
+is by getting kids to use Python to
+
+288
+00:21:21 --> 00:21:26
+build a website to build a website which
+is interactive and they and they can I
+
+289
+00:21:26 --> 00:21:30
+take things into forms and then asuras
+but the downside of this is that is
+
+290
+00:21:30 --> 00:21:34
+actually a really huge project to get
+anything working if you wanted to be
+
+291
+00:21:34 --> 00:21:38
+able to write I can web server other
+need to understand HTML any to
+
+292
+00:21:38 --> 00:21:42
+understand CSS if it wants to look not
+like crap they need to understand how
+
+293
+00:21:42 --> 00:21:45
+HTTP works and you need some kind of
+database for storing stuff in there
+
+294
+00:21:45 --> 00:21:48
+usually that would be some kind of SQL
+database and so you&#39;re suddenly teaching
+
+295
+00:21:48 --> 00:21:57
+for different kinds of writing and SQL
+in order just to get something working
+
+296
+00:21:57 --> 00:22:05
+that looks like a website that was made
+ten years ago because JavaScript if you
+
+297
+00:22:05 --> 00:22:09
+want jobs good you have to learn another
+language how do we do this and I have
+
+298
+00:22:09 --> 00:22:13
+seen this work in schools where you have
+a particularly motivated teacher that
+
+299
+00:22:13 --> 00:22:16
+actually understands all of these
+different things themselves I can guide
+
+300
+00:22:16 --> 00:22:23
+the students through that but business
+mostly the time completely invisible for
+
+301
+00:22:23 --> 00:22:35
+schools we are this is kind of my my
+challenge to you guys if we have kids
+
+302
+00:22:35 --> 00:22:39
+and we have teachers coming to us and
+saying I want to build an app can I do
+
+303
+00:22:39 --> 00:22:40
+that with piping
+
+304
+00:22:40 --> 00:22:44
+well maybe
+
+305
+00:22:44 --> 00:22:49
+we want kids that I want to build a game
+and I just want to be able to send that
+
+306
+00:22:49 --> 00:22:53
+to my friends and then they can run and
+play it well I guess you could packages
+
+307
+00:22:53 --> 00:22:59
+and I&#39;ll let you guess which one of
+these comes from a teacher teaching
+
+308
+00:22:59 --> 00:23:04
+python is like getting into it and they
+really excited but like we need
+
+309
+00:23:04 --> 00:23:09
+something that is visually engaging that
+then they can they can build interactive
+
+310
+00:23:09 --> 00:23:13
+things and stuff and this is really hard
+and fight them so this is my chance to
+
+311
+00:23:13 --> 00:23:15
+hear this week
+
+312
+00:23:15 --> 00:23:22
+replace idle and make it better idk he
+also some kind of simple and powerful
+
+313
+00:23:22 --> 00:23:26
+graphical interface toolkit where I can
+just kind of drawer button and then
+
+314
+00:23:26 --> 00:23:29
+write very very simple card so I can
+click that button and something happens
+
+315
+00:23:29 --> 00:23:34
+that would be awesome to make pipe work
+on profile there are some projects
+
+316
+00:23:34 --> 00:23:37
+already underway for this would look
+really cool so I&#39;m excited about that
+
+317
+00:23:37 --> 00:23:43
+but I would not recommend and one thing
+that I thought would be particularly
+
+318
+00:23:43 --> 00:23:47
+cool coming from you Zealand as I
+understand that my phone is the
+
+319
+00:23:47 --> 00:23:51
+scripting language for pretty much all
+3d animations golf but I&#39;ve never seen
+
+320
+00:23:51 --> 00:23:56
+anyone make this work in a classroom
+where you have a bunch of kids like that
+
+321
+00:23:56 --> 00:24:02
+would be a very cool very interactive
+real-world application of pattern but
+
+322
+00:24:02 --> 00:24:04
+I&#39;ve not seen anyone do this certainly
+was working the 3d animation industry
+
+323
+00:24:04 --> 00:24:14
+talk to me afterwards we have liked to
+have contact with a lot of different
+
+324
+00:24:14 --> 00:24:18
+ages and get the feedback if we loving
+learning Python the kids are getting
+
+325
+00:24:18 --> 00:24:20
+really into it what can we do next
+
+326
+00:24:20 --> 00:24:29
+apart from that we really need advocates
+advocates boreddd including in schools
+
+327
+00:24:29 --> 00:24:32
+and not only light even if we do get
+courting toward in schools in order to
+
+328
+00:24:32 --> 00:24:36
+get a generation of kids that actually
+understand computers coming through the
+
+329
+00:24:36 --> 00:24:38
+teachers are going to need a lot of help
+
+330
+00:24:38 --> 00:24:44
+for anything that you can do to help
+train teachers to lunch program to
+
+331
+00:24:44 --> 00:24:49
+program and to teach programming is
+gonna be really valuable I tend to try
+
+332
+00:24:49 --> 00:24:53
+and shy away from quitting clubs where
+the kids are choosing to go and be there
+
+333
+00:24:53 --> 00:24:56
+because you&#39;re usually only getting the
+kids that are already interested in
+
+334
+00:24:56 --> 00:24:59
+learning to card I could maybe do it in
+this bed time with their parents are
+
+335
+00:24:59 --> 00:25:04
+computer scientist running a workshop in
+the school we&#39;re taking a whole class is
+
+336
+00:25:04 --> 00:25:06
+much more valuable cause and there&#39;s a
+whole ton of kids that never would have
+
+337
+00:25:06 --> 00:25:10
+understood programming it all before
+that then getting exposure to it or
+
+338
+00:25:10 --> 00:25:13
+become a teacher who then become
+teachers also right goals in your
+
+339
+00:25:13 --> 00:25:18
+actually have skills in the classroom as
+well as we don&#39;t think I might have
+
+340
+00:25:18 --> 00:25:21
+talked a little bit too fast
+
+341
+00:25:21 --> 00:25:27
+Crescent Creek
+
+342
+00:25:27 --> 00:26:26
+for the last 16 years and online Python
+programming competition which also
+
+343
+00:26:26 --> 00:26:30
+teaches bison in order to reach a lot
+more kids and I was wanting to reach the
+
+344
+00:26:30 --> 00:26:36
+order of ten thousand kids every year
+2012 to expand this war but wasn&#39;t
+
+345
+00:26:36 --> 00:26:41
+getting enough backing from the
+University this is why grow cloning
+
+346
+00:26:41 --> 00:26:49
+started as a separate company is a tiny
+for-profit company where we charge $20
+
+347
+00:26:49 --> 00:26:56
+per student to an online and that is
+where the money comes from
+
+348
+00:26:56 --> 00:27:00
+thank you for your presentation
+
+349
+00:27:00 --> 00:27:04
+my question is I went to my kid in
+school and told the principal and I
+
+350
+00:27:04 --> 00:27:08
+would like to run a Linux I will check
+out some state and the principal told me
+
+351
+00:27:08 --> 00:27:11
+that she has to go to some Department of
+Education getting permission and this is
+
+352
+00:27:11 --> 00:27:16
+all red tape blocked my proposal at that
+time in geneva came back to me so my
+
+353
+00:27:16 --> 00:27:20
+question to you is that what the local
+you may have already somewhat shops in
+
+354
+00:27:20 --> 00:27:24
+the school how do you approach in can
+you be put to put some light on the
+
+355
+00:27:24 --> 00:27:33
+police forces that you need to go
+through to have a background check and
+
+356
+00:27:33 --> 00:27:37
+stuff done to be ok
+
+357
+00:27:37 --> 00:27:42
+apartment all you really need is a
+provision of the school I&#39;m not sure
+
+358
+00:27:42 --> 00:27:55
+what else would mean so I worked in the
+school system admin but you don&#39;t
+
+359
+00:27:55 --> 00:28:00
+discover I&#39;m working as that are used to
+study and so they basically said goodbye
+
+360
+00:28:00 --> 00:28:03
+to Japan of pushing into programming
+that&#39;s why I&#39;m sorry governor in this
+
+361
+00:28:03 --> 00:28:10
+then you guys but I found there&#39;s a lot
+of like you know I&#39;m out is it does a
+
+362
+00:28:10 --> 00:28:13
+lot of you know a lot of effort into
+teaching as programming and after being
+
+363
+00:28:13 --> 00:28:18
+unified model of kids don&#39;t even run
+half what we learned in our in our
+
+364
+00:28:18 --> 00:28:22
+program and it&#39;s very hard to encourage
+teachers to learn new stuff they&#39;re just
+
+365
+00:28:22 --> 00:28:26
+trying to encourage outage due to launch
+it because I&#39;m sick of looking six
+
+366
+00:28:26 --> 00:28:30
+versions of the same pitch because it&#39;s
+just horrible so how do you encourage
+
+367
+00:28:30 --> 00:28:34
+teachers to do lunch programs that
+encourage them to stop learning how to
+
+368
+00:28:34 --> 00:28:37
+do a freaking PowerPoint presentations
+and look at something interesting
+
+369
+00:28:37 --> 00:28:39
+those kids are suffering from the fact
+that you just don&#39;t want to do anything
+
+370
+00:28:39 --> 00:28:40
+about that fact
+
+371
+00:28:40 --> 00:28:47
+there&#39;s not a lot you can do to make
+someone learn something new and
+
+372
+00:28:47 --> 00:28:50
+different way to what they were doing it
+before every year every kind of industry
+
+373
+00:28:50 --> 00:28:53
+not just teachers like getting out of
+the pattern of that what you were in
+
+374
+00:28:53 --> 00:28:57
+before this is a big problem because
+we&#39;re coming in particular because you
+
+375
+00:28:57 --> 00:28:59
+get some kids that have been occurring
+since they were 8 years old and they
+
+376
+00:28:59 --> 00:29:05
+have like 40 they get to university and
+the like why we went over and you get
+
+377
+00:29:05 --> 00:29:07
+all the kids that have no idea what
+programming is good they&#39;ve never seen
+
+378
+00:29:07 --> 00:29:12
+it before and you have this huge
+disparity yeah this is exactly the kind
+
+379
+00:29:12 --> 00:29:15
+of problem that having a fit curriculum
+across all schools is designed to solve
+
+380
+00:29:15 --> 00:29:19
+USA essentially define this is the
+minimum standard that we expect students
+
+381
+00:29:19 --> 00:29:24
+to achieve at school curriculum this is
+I don&#39;t see any way to actually get
+
+382
+00:29:24 --> 00:29:26
+cruising toward in schools without it
+being part of the mandated curriculum
+
+383
+00:29:26 --> 00:29:31
+you can encourage and you can sort of
+pride as much as you want and they don&#39;t
+
+384
+00:29:31 --> 00:29:33
+worry you don&#39;t have to teach it I can
+come to your school when he did or
+
+385
+00:29:33 --> 00:29:37
+something like that but ultimately
+you&#39;re never going to get this in every
+
+386
+00:29:37 --> 00:29:47
+school everywhere unless it is enforced
+my question to you is you said
+
+387
+00:29:47 --> 00:29:52
+we need a better idea what is the use
+cases often I D
+
+388
+00:29:52 --> 00:29:58
+when I learn Python that I found it much
+more useful to just use a good at a text
+
+389
+00:29:58 --> 00:30:04
+editor and Python maybe I python is a
+shell to toy around with but I never
+
+390
+00:30:04 --> 00:30:09
+needed something more than a decent text
+editor so that it is an interesting
+
+391
+00:30:09 --> 00:30:13
+point as an I seen this occasionally
+where a student becomes a lot more
+
+392
+00:30:13 --> 00:30:16
+engaged when they use the command line
+when they using some kind of
+
+393
+00:30:16 --> 00:30:24
+pre-packaged I D but ultimately it&#39;s
+less scary when you&#39;re first starting
+
+394
+00:30:24 --> 00:30:28
+out if you have sort of a all the
+information that you need in one place
+
+395
+00:30:28 --> 00:30:33
+kids are typically bad typing their bad
+at switching between different winners
+
+396
+00:30:33 --> 00:30:36
+and managing all that kind of muscle
+memory typing between different winners
+
+397
+00:30:36 --> 00:30:39
+and stuff isn&#39;t something that you
+haven&#39;t primary school and sore even
+
+398
+00:30:39 --> 00:30:42
+idle where you have two different
+winners were you have a different winner
+
+399
+00:30:42 --> 00:30:45
+for your text editor in a different
+window for your interpreter gets really
+
+400
+00:30:45 --> 00:30:47
+confusing for kids and i&#39;ve seen this
+happen
+
+401
+00:30:47 --> 00:30:51
+having some kind of whom were you have
+here is my current and here is the code
+
+402
+00:30:51 --> 00:30:56
+running and I can see both at the same
+time is useful and it will highlight a
+
+403
+00:30:56 --> 00:31:01
+particular line when you&#39;ve got some
+time there or something but there is a
+
+404
+00:31:01 --> 00:31:05
+lot of value in having an IV and making
+those initial steps to get into
+
+405
+00:31:05 --> 00:31:07
+programming much easier there is only
+one thing that you have to download and
+
+406
+00:31:07 --> 00:31:12
+install you don&#39;t also have to learn how
+to use the command line in order to be
+
+407
+00:31:12 --> 00:31:17
+able to forget
+
+408
+00:31:17 --> 00:31:25
+by just following up on your point about
+how important to with the four the
+
+409
+00:31:25 --> 00:31:28
+number and the fact that if you don&#39;t
+converted to a number then you get a
+
+410
+00:31:28 --> 00:31:34
+program that runs but just as completely
+the wrong thing this is part 3 which
+
+411
+00:31:34 --> 00:31:37
+runs but then crashes with a useful
+error message
+
+412
+00:31:37 --> 00:31:42
+my question is why not use a language
+that just doesn&#39;t give you a program at
+
+413
+00:31:42 --> 00:31:48
+all and just give you useful type era
+instead and not but I am very much not
+
+414
+00:31:48 --> 00:32:00
+implying that you use Java that how is
+it different to what might those
+
+415
+00:32:00 --> 00:32:07
+yeah I mean I mean has school for four
+or language like that and I mean it&#39;s
+
+416
+00:32:07 --> 00:32:12
+more I i well yeah I resent the fact
+that you implied that we all like Python
+
+417
+00:32:12 --> 00:32:17
+here I consider it the best I consider
+it the best of a bad bunch and firmly in
+
+418
+00:32:17 --> 00:32:27
+the camp slightly less than a lot of yes
+you know I i dun think dynamically typed
+
+419
+00:32:27 --> 00:32:31
+languages right languages for people to
+be using and therefore I don&#39;t think the
+
+420
+00:32:31 --> 00:32:38
+right languages would be a hell of alot
+easier to teach if we declared the types
+
+421
+00:32:38 --> 00:32:45
+when we declared the variables if it was
+likely that way because explaining that
+
+422
+00:32:45 --> 00:32:48
+this variable is an end and this
+variable is a string and that you can
+
+423
+00:32:48 --> 00:32:52
+add them together is much easier when
+each variable has interest-rate written
+
+424
+00:32:52 --> 00:32:55
+next to it
+
+425
+00:32:55 --> 00:33:02
+but they could not going to do that for
+that having the type definition would
+
+426
+00:33:02 --> 00:33:05
+make it easier to teach I have not been
+on the language that is better to teach
+
+427
+00:33:05 --> 00:33:28
+them
+
+428
+00:33:28 --> 00:33:35
+I was just thinking about your idea of
+an idea a better than I do but you know
+
+429
+00:33:35 --> 00:33:39
+a lot of ideas for Python I think would
+probably be why I have a palette for
+
+430
+00:33:39 --> 00:33:52
+voted for discussing eclipse
+four-by-four vehicle features and stuff
+
+431
+00:33:52 --> 00:33:56
+but it is incredibly like just way too
+many buttons way too many controls it is
+
+432
+00:33:56 --> 00:34:03
+very confusing as back
+
+433
+00:34:03 --> 00:34:11
+what I would like a syntax highlighting
+it has to tell you whatever like which
+
+434
+00:34:11 --> 00:34:15
+line the errors or on to be able to run
+it in the same window so that you can
+
+435
+00:34:15 --> 00:34:20
+see here is my code and here is my code
+running at a minimum that would be that
+
+436
+00:34:20 --> 00:34:29
+would be it has to be not painful to use
+but very clean very simple and if you&#39;ve
+
+437
+00:34:29 --> 00:34:37
+ever seen from the Rugby Park Foundation
+gave a really great united Europe Ivan
+
+438
+00:34:37 --> 00:34:45
+last year and also I can distribute this
+year with us here and why large part of
+
+439
+00:34:45 --> 00:34:47
+what we talked about was here all the
+different things that people use my
+
+440
+00:34:47 --> 00:34:50
+views of why they all suck this is what
+I wanted and I D
+
+441
+00:34:50 --> 00:34:59
+talk to her thanks very much for talking
+by the way the Twittersphere education
+
+442
+00:34:59 --> 00:35:04
+people are already frothing at the mouth
+video of the stock because they know
+
+443
+00:35:04 --> 00:35:08
+they&#39;re already looking at crocko.com
+and so that&#39;s good i was just wondering
+
+444
+00:35:08 --> 00:35:14
+with regard to the teaching of teachers
+in this very room a few years ago I was
+
+445
+00:35:14 --> 00:35:17
+first introduced to something called
+suffer carpentry I don&#39;t know if anybody
+
+446
+00:35:17 --> 00:35:20
+years come across that but it&#39;s a
+Canadian run effort but it&#39;s an
+
+447
+00:35:20 --> 00:35:27
+international and international program
+designed to teach primarily scientists
+
+448
+00:35:27 --> 00:35:31
+how to make better use of computing so
+they can amplify their research
+
+449
+00:35:31 --> 00:35:35
+capabilities and also do things properly
+rather than as you pointed out running
+
+450
+00:35:35 --> 00:35:41
+the whole lot of code badly and the
+sufferer carpentry trains people to
+
+451
+00:35:41 --> 00:35:47
+become teachers so they get people into
+a three-day camp where they learn the
+
+452
+00:35:47 --> 00:35:51
+command line other on Linux on the Mac
+and Windows doesn&#39;t do it and they have
+
+453
+00:35:51 --> 00:35:56
+they learn then immediately get and then
+they weren&#39;t books which actually I
+
+454
+00:35:56 --> 00:35:59
+think to a certain extent will address
+some of the idea questions that you also
+
+455
+00:35:59 --> 00:36:01
+have simply
+
+456
+00:36:01 --> 00:36:10
+Jennifer breasts have but anyway so it
+would be interesting to see whether you
+
+457
+00:36:10 --> 00:36:14
+guys could have joined forces with
+suffer carpentry to instruct teachers
+
+458
+00:36:14 --> 00:36:18
+because the curriculum materials are all
+in and get up there all of them they&#39;re
+
+459
+00:36:18 --> 00:36:36
+all kind of Commons license to another
+was a question about typing and
+
+460
+00:36:36 --> 00:36:40
+functional programming and that kind of
+stuff I totally agree that i think is
+
+461
+00:36:40 --> 00:36:49
+probably the best language to teach but
+we have plans to teach kids more than
+
+462
+00:36:49 --> 00:36:57
+one which do you mean some thought about
+what other than in my opinion it should
+
+463
+00:36:57 --> 00:37:01
+be a highly synchronous
+
+464
+00:37:01 --> 00:37:10
+like the opposite of ten fifteen years
+armelle once everyone wants teaches a
+
+465
+00:37:10 --> 00:37:13
+comfortable teaching one paradigm of
+programming that maybe we would it would
+
+466
+00:37:13 --> 00:37:16
+be cool to also teacher functional
+language in schools as well and maybe
+
+467
+00:37:16 --> 00:37:20
+next time we update the curriculum in 20
+years it will be only one language isn&#39;t
+
+468
+00:37:20 --> 00:37:23
+enough we should also learn a new
+language I don&#39;t think that is feasible
+
+469
+00:37:23 --> 00:37:27
+at this time but it is a very
+interesting idea and if there was a
+
+470
+00:37:27 --> 00:37:33
+teacher that was very keen to be
+teaching that that would be that would
+
+471
+00:37:33 --> 00:37:36
+be completely supported by the
+curriculum its language independent I
+
+472
+00:37:36 --> 00:37:42
+would like to go back to my favorite
+diagram this one where
+
+473
+00:37:42 --> 00:37:46
+the functional paradigm as a sort of
+problem solving and way of thinking be
+
+474
+00:37:46 --> 00:37:50
+fascinating for the kids that love the
+problem solving and algorithms side the
+
+475
+00:37:50 --> 00:37:54
+it does not necessarily help you so much
+rebuilding cool stuff that then you can
+
+476
+00:37:54 --> 00:37:58
+show off to your friends and there would
+be a little bit hesitant about that but
+
+477
+00:37:58 --> 00:38:04
+if it was in conjunction with another
+language as well so in terms of number
+
+478
+00:38:04 --> 00:38:13
+of languages required to deal with
+women&#39;s maybe Papa J&#39;s kind of scary to
+
+479
+00:38:13 --> 00:38:30
+be honest it is how I remember vividly
+in high school when we were doing
+
+480
+00:38:30 --> 00:38:36
+physics they told us that atoms were
+made up of this big ball of something
+
+481
+00:38:36 --> 00:38:43
+currents know that they were electrons
+which looked like parents or possibly
+
+482
+00:38:43 --> 00:38:47
+raisins inside and then the next year
+they said forget everything we told you
+
+483
+00:38:47 --> 00:38:52
+last year was a lie there actually like
+the subsystem around and then I believe
+
+484
+00:38:52 --> 00:38:58
+if I keep going to university forget
+everything you got old friend later on
+
+485
+00:38:58 --> 00:39:08
+energy and so the question is are you
+sure that applies to teaching kids
+
+486
+00:39:08 --> 00:39:12
+programming that you may want to teach
+them functional but that&#39;s kind of maybe
+
+487
+00:39:12 --> 00:39:17
+the third year lie you should start with
+the really simple lines say a python
+
+488
+00:39:17 --> 00:39:18
+gonna give you everything you need
+
+489
+00:39:18 --> 00:39:25
+gonna need the function actually we like
+you gonna need a second future of
+
+490
+00:39:25 --> 00:39:28
+fundamental I have this problem and I
+break it down into a series of steps
+
+491
+00:39:28 --> 00:39:29
+that then the computer can
+
+492
+00:39:29 --> 00:39:34
+and that is a huge step and that will
+give them a big advantage later on as I
+
+493
+00:39:34 --> 00:39:41
+go to university and then study actual
+programming
+
+494
+00:39:41 --> 00:39:56
+interested in examining what the
+students have done and I found when I
+
+495
+00:39:56 --> 00:40:01
+went to school that the examination of
+wasn&#39;t really that great but I really
+
+496
+00:40:01 --> 00:40:01
+enjoy it
+
+497
+00:40:01 --> 00:40:04
+things like Google Code Jam but you
+actually get the problems that are
+
+498
+00:40:04 --> 00:40:08
+interesting and you have to solve them
+in a certain time so things like that
+
+499
+00:40:08 --> 00:40:12
+might be good to look into if you&#39;re
+running against the wall
+
+500
+00:40:12 --> 00:40:20
+how do we examine this is an interesting
+question a lot of exams are still at
+
+501
+00:40:20 --> 00:40:24
+school will be done on people&#39;s
+programming language they&#39;re likely to
+
+502
+00:40:24 --> 00:40:30
+be doing exams in programming language
+as well the the sort of cross school
+
+503
+00:40:30 --> 00:40:35
+exams if there are any in the future the
+way this is done at the moment in a
+
+504
+00:40:35 --> 00:40:41
+language independent way is by doing so
+tiger diagrams and exam but yes I agree
+
+505
+00:40:41 --> 00:40:44
+would absolutely absolutely be much
+better to have sort of online timed
+
+506
+00:40:44 --> 00:41:03
+exams were you right card and you can
+actually run the card before
+
+507
+00:41:03 --> 00:41:13
+I they just like that diagram you had
+the attitude because it is actually
+
+508
+00:41:13 --> 00:41:16
+doing things one of the things I think
+the people in this room because we both
+
+509
+00:41:16 --> 00:41:20
+programs or programs in many
+prescription is we&#39;ve already a tree
+
+510
+00:41:20 --> 00:41:27
+full dissolves into one particular spot
+in the complete set of types of ways of
+
+511
+00:41:27 --> 00:41:37
+thinking about problems and so do you go
+talking to your 22 teachers to start to
+
+512
+00:41:37 --> 00:41:44
+twitch she tryna find you know different
+angles and ways of doing it how are you
+
+513
+00:41:44 --> 00:41:47
+getting good feedback are you she
+communicating well with the teachings of
+
+514
+00:41:47 --> 00:41:54
+industry generally yes running online
+courses we have essentially a set of
+
+515
+00:41:54 --> 00:41:58
+forums where the kids can ask questions
+and so we get very very immediate
+
+516
+00:41:58 --> 00:42:00
+feedback on what the kids are
+understanding and what they&#39;re not
+
+517
+00:42:00 --> 00:42:04
+understanding based on the questions
+that were getting in the form of them we
+
+518
+00:42:04 --> 00:42:06
+help him through you can find better
+ways of explaining things to different
+
+519
+00:42:06 --> 00:42:11
+kids as we go through we also get a lot
+of feedback from peaches on on what they
+
+520
+00:42:11 --> 00:42:15
+like and what they don&#39;t like we&#39;ve had
+teaches been who&#39;ve been using our
+
+521
+00:42:15 --> 00:42:22
+system for final six years now and we
+get and if there&#39;s anything that they
+
+522
+00:42:22 --> 00:42:27
+talk like that we find out very quickly
+and we did a lot of feedback from them
+
+523
+00:42:27 --> 00:42:39
+yeah there&#39;s a lot of surprises on very
+basic question how many students are
+
+524
+00:42:39 --> 00:42:44
+using your system roughly at the moment
+and not so basic what kind of
+
+525
+00:42:44 --> 00:42:47
+demographics other
+
+526
+00:42:47 --> 00:43:16
+and range quite significantly shorter
+than what I wanted to do was that we
+
+527
+00:43:16 --> 00:43:27
+have four different levels of difficulty
+and then we have what we call newbies
+
+528
+00:43:27 --> 00:43:43
+beginner intermediate and advanced and
+newbies
+
+529
+00:43:43 --> 00:43:51
+we have nearly as beginners intermediate
+and advanced are four different levels
+
+530
+00:43:51 --> 00:43:57
+of difficulty newbies is usually primary
+school kids but we have kids up to sort
+
+531
+00:43:57 --> 00:44:11
+of grades five and six and the way
+question
+
+532
+00:44:11 --> 00:44:24
+good example has three round one of the
+later ones so this is actually a set of
+
+533
+00:44:24 --> 00:44:31
+blocks that click together but then
+generate hyphen so this is what we start
+
+534
+00:44:31 --> 00:44:35
+the beginners on women in the sort of
+primary school age and this school bars
+
+535
+00:44:35 --> 00:44:43
+ok so you have for example the first
+line is finding to a variable with some
+
+536
+00:44:43 --> 00:44:46
+import and that generates about them
+directly there there as you&#39;re you&#39;re
+
+537
+00:44:46 --> 00:44:55
+changing the blocks around editing the
+pipeline right in front of you we find
+
+538
+00:44:55 --> 00:44:58
+this is a good way to transition kids
+into actually doing so we don&#39;t start
+
+539
+00:44:58 --> 00:45:01
+pipe and directly necessarily with the
+sort of you five and six kids but that
+
+540
+00:45:01 --> 00:45:06
+is where we stopped the other ones are
+just plain writing Python mcguiness
+
+541
+00:45:06 --> 00:45:12
+thoughts out with just a little world
+importing cars up two lists and
+
+542
+00:45:12 --> 00:45:15
+intermediate not to be faster
+
+543
+00:45:15 --> 00:45:20
+advancers quite advanced and goes
+through interest in computer science we
+
+544
+00:45:20 --> 00:45:30
+do have a huge range of abilities but we
+have different levels and so are the Wii
+
+545
+00:45:30 --> 00:46:05
+rain delay from great 524 grade 6 to
+grade 13 in the New Zealand great see ya
+
+546
+00:46:05 --> 00:46:15
+ambitions to cross the ditch National
+Computer Science Museum and students
+
+547
+00:46:15 --> 00:46:18
+it&#39;s all online for those nothing really
+stopping anyone in the world from
+
+548
+00:46:18 --> 00:46:22
+participating in it and we&#39;ve got a
+whole bunch of kids museum we have quite
+
+549
+00:46:22 --> 00:46:25
+a few schools from New Zealand as well
+but I do have quite a few people just
+
+550
+00:46:25 --> 00:46:31
+doing the courses not through the
+challenge from competition with it very
+
+551
+00:46:31 --> 00:46:35
+structured time frame works well as a
+motivator
+
+552
+00:46:35 --> 00:46:39
+here is you have to stop the course now
+if you get a lot more people that way
+
+553
+00:46:39 --> 00:46:42
+than just having a good all the time
+when people say hey this is called last
+
+554
+00:46:42 --> 00:46:47
+night later in the third time as well
+
+555
+00:46:47 --> 00:46:57
+international programming and I should I
+schools and stuff but more time for one
+
+556
+00:46:57 --> 00:47:12
+more question
+
+557
+00:47:12 --> 00:47:18
+test that I saw you doing on the invoice
+and from the kind of mistakes he said
+
+558
+00:47:18 --> 00:47:22
+they were made it seem like a lot of
+that kind of thing is just what would be
+
+559
+00:47:22 --> 00:47:26
+picked up on by people using order
+completion obviously people in this room
+
+560
+00:47:26 --> 00:47:28
+would argue that the crutch I wonder
+like what&#39;s your opinion that like do
+
+561
+00:47:28 --> 00:47:32
+you think that&#39;s an important feature
+that have you had a chance to do any
+
+562
+00:47:32 --> 00:47:40
+testing whether it helps that and that
+would be interesting to find out that is
+
+563
+00:47:40 --> 00:47:46
+one of the big differences between the
+blocks and coding and I think yourself
+
+564
+00:47:46 --> 00:47:51
+as the blocks are all here and you can
+look them up and find the book that you
+
+565
+00:47:51 --> 00:47:54
+need and then just put it in rather than
+having to remember how to type
+
+566
+00:47:54 --> 00:48:00
+everything but the blocks obviously get
+annoying to use and having we haven&#39;t
+
+567
+00:48:00 --> 00:48:03
+done any experiments with order to see
+if that would help because we don&#39;t have
+
+568
+00:48:03 --> 00:48:07
+an order to sleep system built into that
+would be an interesting experiment to
+
+569
+00:48:07 --> 00:48:19
+run if you can rely on order order to
+plead in the early problems then if
+
+570
+00:48:19 --> 00:48:21
+they&#39;re not fully understanding the
+concept later that could be a real
+
+571
+00:48:21 --> 00:48:25
+problem but again it could also just
+avoid kids getting started throwing
+
+572
+00:48:25 --> 00:48:30
+their hands up in frustration giving up
+to you please join me one more time in
+
+573
+00:48:30 --> 00:48:31
+thinking Katie Bell for her
+
