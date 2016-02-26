@@ -11,7 +11,7 @@ import string
 from string import digits
 
 # it would be nice to ask user for file name and name for converted file from command line
-inputFile = "ccSubs_com_keynote-katie-bell-how-python-works-as-a-teaching-language_en.srt" # put the name of the file you'd like converted here
+inputFile = "keynote-katie-bell-how-python-works-as-a-teaching-language_en.srt" # put the name of the file you'd like converted here
 outputFile = "output_katie.textgrid" # put what you'd like your output file to be called here
 
 # open .srt file
