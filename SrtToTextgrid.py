@@ -3,6 +3,7 @@
 #
 # written by Rachael Tatman, please rctatman@uw.edu with any problems.
 # Additional work by Caluã Pataca (github.com/caluap) 
+# Turned into command line by Hossep Dolatian (github.com/jhdeov/)
 
 # import
 import datetime
@@ -11,12 +12,14 @@ import numpy
 import string
 from itertools import groupby
 
+import sys # to get command line arguments
+
 from string import digits
 from collections import namedtuple
 
-# it would be nice to ask user for file name and name for converted file from command line
-input_file_path = "keynote-katie-bell-how-python-works-as-a-teaching-language_en.srt" # put the name of the file you'd like converted here
-output_file_path = "output_katie.textgrid" # put what you'd like your output file to be called here
+# Input and output files as arguments
+input_file_path= sys.argv[1] # "keynote-katie-bell-how-python-works-as-a-teaching-language_en.srt" # put the name of the file you'd like converted here
+output_file_path = sys.argv[2] # "output_katie.textgrid" # put what you'd like your output file to be called here
 
 # open .srt file
 
