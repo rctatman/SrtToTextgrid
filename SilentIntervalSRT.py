@@ -1,10 +1,13 @@
 # Given an SRT, find any unmarked silent intervals and add them to the SRT
-# It also does some other preprocessing steps such as cleaning up quotation symbols because
-# those cause trouble for Praat
+# It also does some other preprocessing steps:
+#     * cleaning up quotation symbols because those cause trouble for Praat
+#     * remove consecutive blank lines
+#     * make the interval numbers incremently increase from 1
 # Made by Hossep Dolatian (github.com/jhdeov/)
 
 import codecs
 import sys
+import re
 
 # Input and output files as arguments
 inFile= sys.argv[1] # "srtInput.srt"
@@ -69,6 +72,17 @@ with codecs.open(inFile, 'r', 'utf-8') as iFile:
     # the input file must end in an empty new line. we add it in case it's absent
     if lines[-1] is not "":
         lines.append("")
+
+    # Will remove any consecutive blank lines, if present
+    linesTemp = []
+    for i in range(len(lines) - 1):
+        if lines[i] == '' and lines[i + 1] == '':
+            print(f'There was a blank line at index {i} before another blank line. It was removed ')
+        else:
+            linesTemp.append(lines[i])
+    linesTemp.append(lines[-1])
+    lines = linesTemp
+
     lines[0] = lines[0].replace('\ufeff', "")
     lineCounter = 0
     while lineCounter < len(lines):
