@@ -54,7 +54,8 @@ mydates = [ datetime.datetime.strptime(listOfTimes[x], "%H:%M:%S,%f").time() for
 milliseconds = numpy.array([x.microsecond for x in mydates]) / 1000000
 seconds = numpy.array([x.second for x in mydates])
 minutes = numpy.array([x.minute for x in mydates]) * 60
-times = milliseconds + seconds + minutes # this is a list of all times in seconds 
+hours = numpy.array([x.hour for x in mydates]) * 60 * 60
+times = milliseconds + seconds + minutes + hours # this is a list of all times in seconds
 numberOfIntervals = times.size//2
 
 #ok, now that we have a list of times, we can figure out the max time and start by creating the preamble for our .textgrid

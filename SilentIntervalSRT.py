@@ -1,4 +1,6 @@
 # Given an SRT, find any unmarked silent intervals and add them to the SRT
+# It also does some other preprocessing steps such as cleaning up quotation symbols because
+# those cause trouble for Praat
 # Made by Hossep Dolatian (github.com/jhdeov/)
 
 import codecs
@@ -22,7 +24,10 @@ class srtInterval:
         self.number= number[:]
         self.range = range[:]
         self.startTime, self.endTime = range[:].split(" --> ")
-        self.content= content
+
+        # If the content of the SRT has a quotation symbol ", then that is changed to ""
+        # This is because Praat TextGrids are sensitive to such symbols
+        self.content= content.replace('"', '""')
     def __str__(self):
         return "index: "+str(self.number) + "\ntimes: " + str(self.range) +"\ncontent: " + self.content
 
@@ -98,9 +103,11 @@ with codecs.open(inFile, 'r', 'utf-8') as iFile:
 print("")
 
 # Now we clean up the file by adding silences
-
-# add silent intervals between SRT intervals
-for i in range(len(srtintervals)-1):
+# Because the list of intervals will grow as we add silences, we have to continously
+# check the list length
+strIntervalsCounter = 0
+while strIntervalsCounter < len(srtintervals)-1:
+    i = strIntervalsCounter
     currentInterval = srtintervals[i]
     nextInterval = srtintervals[i+1]
     if currentInterval.endTime == nextInterval.startTime:
@@ -116,6 +123,8 @@ for i in range(len(srtintervals)-1):
         print("We created a silence new interval")
         print(newInterval)
         srtintervals.insert(i+1, newInterval)
+
+    strIntervalsCounter+= 1
 
 print("")
 
