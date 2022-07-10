@@ -3,6 +3,7 @@
 #     * cleaning up quotation symbols because those cause trouble for Praat
 #     * remove consecutive blank lines
 #     * make the interval numbers incremently increase from 1
+#     * find timing errors
 # Made by Hossep Dolatian (github.com/jhdeov/)
 
 import codecs
@@ -16,7 +17,7 @@ outFile = sys.argv[2] # "srtOutput.srt"
 print("Useful debugging info is printed into the message.log")
 # The printing code was taken from https://stackoverflow.com/a/2513511
 old_stdout = sys.stdout
-log_file = open("message.log","w")
+log_file = open(inFile+".message.log","w")
 sys.stdout = log_file
 
 
@@ -108,12 +109,31 @@ with codecs.open(inFile, 'r', 'utf-8') as iFile:
         currentInterval = srtInterval(tempIndex,tempTime,tempContent)
         print("Created the following interval",currentInterval)
         srtintervals.append(currentInterval)
-        print("The list currently has the following intervals:")
-        for i in srtintervals:
-            print(i)
 
-        print("Done with creating the list")
 
+print("Done with creating the list")
+print("The list currently has the following intervals:")
+for i in srtintervals:
+    print(i)
+
+print("")
+
+# Now we check if there any conflicting times, like if interval A precedes interval B,
+# but A's endtime is after B's starttime
+foundTimingError = False
+for i in range(len(srtintervals)-1):
+    currentInterval = srtintervals[i]
+    nextInterval = srtintervals[i+1]
+    if currentInterval.endTime > nextInterval.startTime:
+        print("Error, the following two consecutive intervals have contradictory times")
+        print("Interval A:")
+        print(currentInterval)
+        print("Interval B")
+        print(nextInterval)
+        print("Cannot create cleaned up SRT until this error is manually solved in the original SRT")
+        foundTimingError = True
+        print("")
+if foundTimingError: quit()
 print("")
 
 # Now we clean up the file by adding silences
