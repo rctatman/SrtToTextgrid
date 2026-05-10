@@ -90,6 +90,8 @@ for i in range(1, numberOfIntervals + 1): # I know it's weird, but I was getting
   output_file.write("\t\t intervals [" + str(i) + "]:" + "\n")
   output_file.write("\t\t\t xmin = " + str(times.item((i * 2) - 2)) + "\n") # get the ith element from the array
   output_file.write("\t\t\t xmax = " + str(times.item((i * 2 ) - 1)) + "\n") # ith element + 1
-  output_file.write("\t\t\t text = \"" + text[i - 1] + "\"\n") 
+  content = text[i-1]
+  if content == "[Silence]": content = ""
+  output_file.write("\t\t\t text = \"" + content + "\"\n") 
 
 output_file.close()

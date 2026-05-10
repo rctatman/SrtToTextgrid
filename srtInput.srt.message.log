@@ -1,0 +1,110 @@
+Currently working on line number 0 with content 96
+	Currently on line  - and I'm on a new line
+	Length of this line:  23
+	Is the line empty?:  False
+	Content of the current line: I am an igloo
+- and I'm on a new line
+	LineCounter: 4
+Created the following interval index: 96
+times: 00:07:08,569 --> 00:07:11,209
+content: I am an igloo
+- and I'm on a new line
+Currently working on line number 5 with content 97
+	Currently on line  
+	Length of this line:  0
+	Is the line empty?:  True
+Created the following interval index: 97
+times: 00:07:11,309 --> 00:07:16,660
+content: And the SRT is working
+Done with creating the list
+The list currently has the following intervals:
+index: 96
+times: 00:07:08,569 --> 00:07:11,209
+content: I am an igloo
+- and I'm on a new line
+index: 97
+times: 00:07:11,309 --> 00:07:16,660
+content: And the SRT is working
+
+Done with finding conflicting intervals in the list
+The list currently has the following intervals:
+index: 96
+times: 00:07:08,569 --> 00:07:11,209
+content: I am an igloo
+- and I'm on a new line
+index: 97
+times: 00:07:11,309 --> 00:07:16,660
+content: And the SRT is working
+
+
+There is a missing interval between the following two intervals
+index: 96
+times: 00:07:08,569 --> 00:07:11,209
+content: I am an igloo
+- and I'm on a new line
+index: 97
+times: 00:07:11,309 --> 00:07:16,660
+content: And the SRT is working
+We created a silence new interval
+index: 96.5
+times: 00:07:11,209 --> 00:07:11,309
+content: [Silence]
+
+There is no missing interval between the following two intervals
+index: 96.5
+times: 00:07:11,209 --> 00:07:11,309
+content: [Silence]
+index: 97
+times: 00:07:11,309 --> 00:07:16,660
+content: And the SRT is working
+
+
+The list currently:
+index: 96
+times: 00:07:08,569 --> 00:07:11,209
+content: I am an igloo
+- and I'm on a new line
+index: 96.5
+times: 00:07:11,209 --> 00:07:11,309
+content: [Silence]
+index: 97
+times: 00:07:11,309 --> 00:07:16,660
+content: And the SRT is working
+
+Check if need to add initial silence
+There is a missing initial silence: 00:07:08,569
+Here's new interval
+index: 0
+times: 00:00:00,000 --> 00:07:08,569
+content: [Silence]
+
+The list currently:
+index: 0
+times: 00:00:00,000 --> 00:07:08,569
+content: [Silence]
+index: 96
+times: 00:07:08,569 --> 00:07:11,209
+content: I am an igloo
+- and I'm on a new line
+index: 96.5
+times: 00:07:11,209 --> 00:07:11,309
+content: [Silence]
+index: 97
+times: 00:07:11,309 --> 00:07:16,660
+content: And the SRT is working
+We will update the list with new indexes
+
+The list currently:
+index: 1
+times: 00:00:00,000 --> 00:07:08,569
+content: [Silence]
+index: 2
+times: 00:07:08,569 --> 00:07:11,209
+content: I am an igloo
+- and I'm on a new line
+index: 3
+times: 00:07:11,209 --> 00:07:11,309
+content: [Silence]
+index: 4
+times: 00:07:11,309 --> 00:07:16,660
+content: And the SRT is working

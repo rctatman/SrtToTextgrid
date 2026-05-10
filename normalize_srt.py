@@ -26,14 +26,18 @@ sys.stdout = log_file
 class srtInterval:
     def __init__(self,number,range,content):
         self.number= number[:]
-        self.range = range[:]
+        range = range[:]
         self.startTime, self.endTime = range[:].split(" --> ")
 
         # If the content of the SRT has a quotation symbol ", then that is changed to ""
         # This is because Praat TextGrids are sensitive to such symbols
         self.content= content.replace('"', '""')
+    def get_range(self):
+        return str(self.startTime) + " --> " + str(self.endTime)
     def __str__(self):
-        return "index: "+str(self.number) + "\ntimes: " + str(self.range) +"\ncontent: " + self.content
+        return "index: "+str(self.number) + "\ntimes: " + \
+               self.get_range() \
+                +"\ncontent: " + self.content
 
 # creates an interval between two pre-existing SRT intervals
 def createMissingInterval(currentInterval,nextInterval):
@@ -130,10 +134,23 @@ for i in range(len(srtintervals)-1):
         print(currentInterval)
         print("Interval B")
         print(nextInterval)
-        print("Cannot create cleaned up SRT until this error is manually solved in the original SRT")
+        print("Cannot create cleaned up SRT until this error is manually or automatically solved in the original SRT")
+        print("For convenience, we applied an automatic resolution by making the 2nd interval's startTime match the 1st"
+              "interval's endTime. Manually double check to see if you're ok with this.")
+        nextInterval.startTime = currentInterval.endTime
+        print("Interval A:")
+        print(currentInterval)
+        print("Interval B")
+        print(nextInterval)
         foundTimingError = True
         print("")
-if foundTimingError: quit()
+# if foundTimingError: quit()
+print("Done with finding conflicting intervals in the list")
+print("The list currently has the following intervals:")
+for i in srtintervals:
+    print(i)
+
+print("")
 print("")
 
 # Now we clean up the file by adding silences
@@ -148,6 +165,7 @@ while strIntervalsCounter < len(srtintervals)-1:
         print("There is no missing interval between the following two intervals")
         print(currentInterval)
         print(nextInterval)
+        print("")
     else:
         insertedSilences = True
         print("There is a missing interval between the following two intervals")
@@ -157,6 +175,7 @@ while strIntervalsCounter < len(srtintervals)-1:
         print("We created a silence new interval")
         print(newInterval)
         srtintervals.insert(i+1, newInterval)
+        print("")
 
     strIntervalsCounter+= 1
 
@@ -174,7 +193,7 @@ needInitialSilence= False
 if srtintervals[0].startTime is not "00:00:00,000":
     print("There is a missing initial silence:",srtintervals[0].startTime)
     newInterval = createInitialSilence(srtintervals[0].startTime)
-    print("here's new interval")
+    print("Here's new interval")
     print(newInterval)
     srtintervals.insert(0, newInterval)
 else:
@@ -199,7 +218,7 @@ for i in srtintervals:
 with codecs.open(outFile, 'w', 'utf-8') as o:
     for line in srtintervals:
         o.writelines(line.number + '\n')
-        o.writelines(line.range + '\n')
+        o.writelines(line.get_range() + '\n')
         o.writelines(line.content + '\n\n')
 
 
